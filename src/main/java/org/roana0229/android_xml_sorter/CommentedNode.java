@@ -53,10 +53,19 @@ class CommentedNode {
                         return -1;
                     }
                 }
-                final String node1Name = attributes1.getNamedItem("name").getTextContent();
-                final String node2Name = attributes2.getNamedItem("name").getTextContent();
+                final String node1Name = getNodeName(commentedNode1);
+                final String node2Name = getNodeName(commentedNode2);
                 return node1Name.compareTo(node2Name);
             }
+        }
+
+        private String getNodeName(CommentedNode commentedNode) {
+            Node node = commentedNode.node;
+            NamedNodeMap attributes = node.getAttributes();
+            if (attributes == null) {
+                throw new NullPointerException("There is a wrong xml node here: " + node);
+            }
+            return attributes.getNamedItem("name").getTextContent();
         }
     }
 }
