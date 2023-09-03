@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "org.roana0229.android-xml-sorter"
-version = "1.1.1"
+version = "1.1.2"
 
 repositories {
     mavenCentral()

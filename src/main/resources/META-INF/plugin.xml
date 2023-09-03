@@ -16,6 +16,7 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      1.1.2 - Updated: Add NPE message for xml node attributes.
       1.1.1 - Updated: Add sort option for translatable.
       1.1.0 - Updated: Add instant sort shortcut.<br/>
       1.0.9 - Updated: Remember current settings.<br/>
