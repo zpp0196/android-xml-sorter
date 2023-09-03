@@ -1,0 +1,1 @@
+rootProject.name = "android-xml-sorter"

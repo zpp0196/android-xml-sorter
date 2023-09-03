@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android-xml-sorter.iml" filepath="$PROJECT_DIR$/android-xml-sorter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-xml-sorter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/android-xml-sorter.main.iml" />
     </modules>
   </component>
 </project>
